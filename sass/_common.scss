@@ -1,0 +1,177 @@
+.heading-btn {
+  padding: 20px 60px;
+  background-color: $heading-btn;
+  border-radius: 30px;
+  margin-left: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  color: $light;
+  font-size: 18px;
+  transition: 0.3s;
+  &:hover {
+    background: linear-gradient(
+      178deg,
+      rgb(255, 153, 165) 0%,
+      rgb(255, 96, 163) 100%
+    );
+  }
+}
+a {
+  &:hover {
+    color: $light;
+  }
+}
+// main
+main {
+  overflow: hidden;
+}
+// slider
+.sbtn {
+  text-decoration: none;
+  padding: 30px 70px;
+  background: linear-gradient(
+    178deg,
+    rgb(255, 153, 165) 0%,
+    rgb(255, 96, 163) 100%
+  );
+  font-weight: 600;
+  font-size: 18px;
+  color: $light;
+  border-radius: 40px;
+}
+.outline {
+  border: 2px solid $light;
+  padding: 29px 69px;
+  background: transparent;
+  transition: 0.3s;
+  margin-left: 20px;
+  &:hover {
+    border: none;
+    background: linear-gradient(
+      178deg,
+      rgb(255, 153, 165) 0%,
+      rgb(255, 96, 163) 100%
+    );
+  }
+}
+.shape {
+  position: absolute;
+}
+// section-header
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    font-size: 48px;
+  }
+  p {
+    font-size: 22px;
+    width: 50%;
+  }
+}
+.fe-icon.\30 1 {
+  background: linear-gradient(
+    -40deg,
+    rgb(186, 160, 253) 0%,
+    rgb(89, 71, 243) 100%
+  );
+}
+.fe-icon.\30 2 {
+  background: linear-gradient(
+    -41deg,
+    rgb(255, 153, 165) 0%,
+    rgb(255, 96, 163) 100%
+  );
+}
+.fe-icon.\30 3 {
+  background: linear-gradient(
+    0deg,
+    rgb(255, 181, 124) 0%,
+    rgb(246, 140, 84) 100%
+  );
+}
+// phone area
+.overview_phone_area {
+  //   .phone_img {
+  //     img {
+
+  //     }
+  //   }
+  .phone_content {
+    margin-top: 25%;
+    width: 80%;
+    margin-left: 5%;
+    h2 {
+      font-size: 36px;
+    }
+    p {
+      padding: 40px 0;
+      font-size: 16;
+      color: $border_color;
+    }
+    a {
+      padding: 22px 35px;
+    }
+  }
+}
+// pricing_btn
+.pricing_btn {
+  .p_btn1 {
+    border-radius: 40px 0px 0px 40px;
+    border: 1px solid $border_color;
+    padding: 20px 50px;
+  }
+  .p_btn2 {
+    border-radius: 0px 40px 40px 0px;
+    border: 1px solid $border_color;
+    padding: 20px 50px;
+  }
+}
+// prising card
+
+.priceing_card_container {
+    margin-top: 300px;
+  .single_prise {
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+    border: 1px solid $mid_light;
+    margin-top: -260px;
+    margin-bottom: 180px;
+    .prising_header {
+      padding-bottom: 30px;
+      border-bottom: 1px solid $pricing_header;
+      h4 {
+        font-size: 18px;
+      }
+      h2 {
+        color: $national-color;
+        font-size: 60px;
+        sub {
+          font-size: 18px;
+          color: $border_color;
+        }
+      }
+    }
+    .pricing_body {
+      padding: 40px 0;
+    }
+    a {
+      padding: 15px 20px;
+      background: none !important;
+      color: $text_color;
+      border: 2px solid $gradient_color;
+      text-transform: uppercase;
+      &:hover {
+        background: linear-gradient(
+          -41deg,
+          rgb(255, 153, 165) 0%,
+          rgb(255, 96, 163) 100%
+        ) !important;
+        color: white;
+      }
+    }
+  }
+}
+
